@@ -128,7 +128,7 @@ This project is an experiment in **AI-driven front-end development**. Both Claud
 │        Command Your Revenue Motion.                     │
 │        Operations intelligence, reimagined.             │
 │                                                         │
-│   [ Start Free Trial ]   [ See it live ]               │
+│    [ Start Free Trial ]   [ See it live ]               │
 │                                                         │
 │  ─────────────────────────────────────────────────────  │
 │  Trusted by 2,000+ teams worldwide                      │
