@@ -4,6 +4,7 @@
 
 ### AI Website Generation Showdown
 **Claude Code** vs **Codex** — same prompt. same skill. different results.
+** Made with the sole purpose of experimentation for me **
 
 <br>
 
