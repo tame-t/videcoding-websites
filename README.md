@@ -375,8 +375,6 @@ The answer, it turns out, is: **almost.** And comparing the nuances is where the
 
 Made with ❤️ by **mr claude and mr codex** with the help of **tammee**
 
-⭐ **Star this repository if you found it useful!**
-
 [![GitHub](https://img.shields.io/badge/GitHub-tame--t-181717?style=flat-square&logo=github)](https://github.com/tame-t)
 
 </div>
