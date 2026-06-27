@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✦ videcoding-websites
+# ✦ vibecoding-websites
 
 ### AI Website Generation Showdown
 **Claude Code** vs **Codex** — same prompt. same skill. different results.
