@@ -1,0 +1,73 @@
+```text
+Create a modern, premium-looking landing page website.
+
+Requirements:
+- Save all project files to: ~/Projects/codex-website
+- Create the directory if it does not already exist.
+- Use plain HTML, CSS, and vanilla JavaScript only.
+- Put all styling in a separate styles.css file.
+- Put all JavaScript in a separate script.js file.
+- Do NOT use Tailwind, Bootstrap, React, Vue, or any other framework.
+- The website should work by simply opening index.html.
+
+Before designing, load and follow the UI/UX skill from:
+https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+
+Design Goals:
+- Premium SaaS aesthetic
+- Dark theme
+- Glassmorphism
+- Smooth gradients
+- Modern typography
+- Excellent spacing
+- Responsive design
+- Beautiful hover animations
+- Smooth transitions
+- Animated hero section
+- Cards with subtle depth
+- Modern navigation bar
+- Feature section
+- Statistics section
+- Testimonials
+- Pricing cards
+- FAQ
+- Footer
+- Call-to-action section
+
+Technical Requirements:
+- Semantic HTML
+- Clean CSS architecture
+- CSS variables for colors
+- Mobile-first responsive layout
+- Flexbox/Grid
+- No inline CSS
+- No inline JavaScript
+- Accessible color contrast
+- Keyboard-friendly navigation
+- Respect prefers-reduced-motion
+
+Visual Details:
+- Gradient backgrounds
+- Animated glowing accents
+- Glass cards
+- Soft shadows
+- Rounded corners
+- Large hero headline
+- Professional icon placeholders using CSS only (no external icon libraries)
+- Smooth scrolling
+- Animated buttons
+- Reveal animations while scrolling using vanilla JavaScript
+
+Code Quality:
+- Well organized
+- Comment major sections
+- Use descriptive class names
+- Keep CSS readable
+- Avoid duplicate styles
+
+When finished:
+1. Verify all links and assets work.
+2. Verify responsiveness.
+3. Verify there are no console errors.
+4. Save everything into ~/Projects/codex-website.
+```
