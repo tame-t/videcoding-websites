@@ -93,53 +93,17 @@ This project is an experiment in **AI-driven front-end development**. Both Claud
 
 ### Claude Code — Luminary
 
-**Desktop**
+![Luminary — built by Claude Code](claude-website/claude-website.png)
 
-> `claude-website-ui-ux-pro-max-skill/index.html`
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  ✦ Luminary                    Features  Pricing   CTA  │
-│                                                         │
-│        Transform how your team works.                   │
-│        Automate workflows. Ship 10x faster.             │
-│                                                         │
-│   [ Get Started Free ]   [ Watch Demo ]                 │
-│                                                         │
-│  ─────────────────────────────────────────────────────  │
-│  Featured in: TechCrunch  Product Hunt  Hacker News     │
-└─────────────────────────────────────────────────────────┘
-```
-
-**Mobile**
-
-> Responsive at 375px — hamburger nav, stacked hero, touch-friendly CTAs.
+> `claude-website/index.html` — Purple-blue glassmorphism, Plus Jakarta Sans + DM Sans typography.
 
 ---
 
 ### Codex — Lumora
 
-**Desktop**
+![Lumora — built by Codex](codex-website/codex-website.png)
 
-> `codex-website-ui-ux-pro-max-skill/index.html`
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  ◈ Lumora                      Features  Pricing   CTA  │
-│                                                         │
-│        Command Your Revenue Motion.                     │
-│        Operations intelligence, reimagined.             │
-│                                                         │
-│    [ Start Free Trial ]   [ See it live ]               │
-│                                                         │
-│  ─────────────────────────────────────────────────────  │
-│  Trusted by 2,000+ teams worldwide                      │
-└─────────────────────────────────────────────────────────┘
-```
-
-**Mobile**
-
-> Responsive at 375px — mobile nav, vertically stacked sections, accessible tap targets.
+> `codex-website/index.html` — Crimson-cyan-violet palette, fully self-contained (no external fonts).
 
 ---
 
@@ -159,17 +123,17 @@ cd videcoding-websites
 **Open Claude Code's site**
 
 ```bash
-open claude-website-ui-ux-pro-max-skill/index.html
+open claude-website/index.html
 # or on Linux:
-xdg-open claude-website-ui-ux-pro-max-skill/index.html
+xdg-open claude-website/index.html
 ```
 
 **Open Codex's site**
 
 ```bash
-open codex-website-ui-ux-pro-max-skill/index.html
+open codex-website/index.html
 # or on Linux:
-xdg-open codex-website-ui-ux-pro-max-skill/index.html
+xdg-open codex-website/index.html
 ```
 
 **Serve locally (optional, for accurate font loading)**
@@ -182,7 +146,7 @@ python3 -m http.server 8080
 npx serve .
 ```
 
-Then visit `http://localhost:8080/claude-website-ui-ux-pro-max-skill/` or the Codex equivalent.
+Then visit `http://localhost:8080/claude-website/` or `http://localhost:8080/codex-website/`.
 
 ---
 
@@ -195,8 +159,8 @@ This repository is designed for **studying, benchmarking, and learning from** AI
 ```bash
 # Diff the CSS variable tokens between the two agents
 diff \
-  claude-website-ui-ux-pro-max-skill/styles.css \
-  codex-website-ui-ux-pro-max-skill/styles.css
+  claude-website/styles.css \
+  codex-website/styles.css
 ```
 
 **Inspect animation approaches**
@@ -204,18 +168,18 @@ diff \
 ```bash
 # See how each agent implemented scroll animations
 grep -n "IntersectionObserver\|animation\|transition" \
-  claude-website-ui-ux-pro-max-skill/script.js
+  claude-website/script.js
 
 grep -n "IntersectionObserver\|animation\|transition" \
-  codex-website-ui-ux-pro-max-skill/script.js
+  codex-website/script.js
 ```
 
 **Validate HTML**
 
 ```bash
 # Install the W3C validator CLI
-npx html-validate claude-website-ui-ux-pro-max-skill/index.html
-npx html-validate codex-website-ui-ux-pro-max-skill/index.html
+npx html-validate claude-website/index.html
+npx html-validate codex-website/index.html
 ```
 
 ---
@@ -225,17 +189,19 @@ npx html-validate codex-website-ui-ux-pro-max-skill/index.html
 ```
 videcoding-websites/
 │
-├── claude-website-ui-ux-pro-max-skill/   # Built by Claude Code
-│   ├── index.html                         # Semantic HTML5 structure
-│   ├── styles.css                         # Full design system + glassmorphism
-│   ├── script.js                          # Scroll animations, nav, accordion
-│   └── claude-code-prompt.txt             # The exact prompt used
+├── claude-website/              # Built by Claude Code
+│   ├── index.html               # Semantic HTML5 structure
+│   ├── styles.css               # Full design system + glassmorphism
+│   ├── script.js                # Scroll animations, nav, accordion
+│   ├── claude-website.png       # Desktop screenshot
+│   └── claude-code-prompt.txt   # The exact prompt used
 │
-├── codex-website-ui-ux-pro-max-skill/    # Built by Codex (OpenAI)
-│   ├── index.html                         # Semantic HTML5 structure
-│   ├── styles.css                         # Design tokens + CSS architecture
-│   ├── script.js                          # Interactivity + animations
-│   └── codex-prompt.txt                   # The exact prompt used (identical)
+├── codex-website/               # Built by Codex (OpenAI)
+│   ├── index.html               # Semantic HTML5 structure
+│   ├── styles.css               # Design tokens + CSS architecture
+│   ├── script.js                # Interactivity + animations
+│   ├── codex-website.png        # Desktop screenshot
+│   └── codex-prompt.txt         # The exact prompt used (identical)
 │
 └── README.md
 ```
@@ -315,7 +281,7 @@ Contributions are welcome, especially additions that expand the comparison.
 
 ### Guidelines
 
-- Keep each AI agent's output in its own directory (e.g., `gemini-website-ui-ux-pro-max-skill/`)
+- Keep each AI agent's output in its own directory (e.g., `gemini-website/`)
 - Always include the exact prompt used as a `.txt` file in the directory
 - Do not hand-edit the AI's generated code — the point is to compare raw output
 - Keep `index.html` openable without a build step
@@ -380,25 +346,3 @@ Made with ❤️ by **mr claude and mr codex** with the help of **tammee**
 [![GitHub](https://img.shields.io/badge/GitHub-tame--t-181717?style=flat-square&logo=github)](https://github.com/tame-t)
 
 </div>
-╭─ethan@Ethans-ThinkPad-Pro ~/Projects/videcoding-websites ‹main●›
-╰─$ git commit -m "add readme.md"
-
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        README.md
-
-nothing added to commit but untracked files present (use "git add" to track)
-╭─ethan@Ethans-ThinkPad-Pro ~/Projects/videcoding-websites ‹main●›
-╰─$ git push origin main                                                                                         1 ↵
-
-To https://github.com/tame-t/videcoding-websites
- ! [rejected]        main -> main (fetch first)
-error: failed to push some refs to 'https://github.com/tame-t/videcoding-websites'
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
